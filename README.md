@@ -124,5 +124,4 @@ The following keywords are naturally integrated across the page:
 
 ## Contact
 
-
 For support or inquiries: [maamun.work@gmail.com](mailto:maamun.work@gmail.com)
