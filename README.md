@@ -1,6 +1,6 @@
-# AIChatToWord Landing Page
+# AI Chat to Word Landing Page
 
-A modern, high-converting, SEO-optimized landing page for the **AIChatToWord** Chrome extension — the fastest way to export AI conversations from ChatGPT, Gemini, Copilot, Grok, and DeepSeek to Microsoft Word and PDF documents.
+A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word** Chrome extension — the fastest way to export AI conversations from ChatGPT, Gemini, Copilot, Grok, and DeepSeek to Microsoft Word and PDF documents.
 
 ## Live Website
 
@@ -17,9 +17,13 @@ A modern, high-converting, SEO-optimized landing page for the **AIChatToWord** C
 - [x] **SEO-Optimized FAQ Accordion** — 5 FAQs with JSON-LD schema markup for rich snippets
 - [x] **Final CTA Section** — Full-width gradient banner with secondary CTA
 - [x] **Responsive Footer** — Navigation links, contact support (`mailto:maamun.work@gmail.com`), copyright
+- [x] **Terms of Service Page** — Full legal terms with subscription, liability, and governing law sections
+- [x] **Privacy Policy Page** — Comprehensive privacy policy emphasizing 100% local processing
+- [x] **Refund Policy Page** — Clear refund eligibility, process, and cancellation instructions
 - [x] **Sticky Navigation** — Transparent-to-solid on scroll with mobile hamburger menu
 - [x] **Back to Top Button** — Appears after scrolling 500px
 - [x] **Scroll Progress Bar** — Visual indicator at top of page
+- [x] **Pricing Section** — Clear pricing comparison showing $4.99/month vs competitors at $10–$20, highlighting 50–75% savings
 
 ### SEO & Technical Implementation
 - [x] **Semantic HTML5** — Proper heading hierarchy, `header`, `nav`, `main`, `section`, `article`, `footer`
@@ -39,12 +43,15 @@ A modern, high-converting, SEO-optimized landing page for the **AIChatToWord** C
 ```
 .
 ├── index.html          # Main landing page (semantic HTML + all sections)
+├── terms.html          # Terms of Service policy page
+├── privacy.html        # Privacy Policy page
+├── refund.html         # Refund Policy page
 ├── css/
 │   └── style.css       # Custom animations, glow effects, responsive tweaks
 ├── js/
 │   └── app.js          # FAQ accordion, mobile menu, smooth scroll, interactions
 ├── images/
-│   └── logo.png        # AIChatToWord logo (1024x1024 PNG)
+│   └── logo.png        # AI Chat to Word logo (1024x1024 PNG)
 └── README.md           # Project documentation
 ```
 
@@ -98,7 +105,8 @@ The following keywords are naturally integrated across the page:
 - [ ] **Testimonials Section** — Add user reviews with star ratings for social proof
 - [ ] **Screenshot Gallery** — Showcase the extension UI with annotated screenshots
 - [ ] **Video Demo** — Add an explainer video showing the one-click export process
-- [ ] **Pricing Section** — If introducing premium tiers, add a pricing comparison
+- [x] **Pricing Section** — Clear $4.99/month pricing with competitor comparison ($10–$20) highlighting 50–75% savings
+- [ ] **Policy Pages** — Terms of Service, Privacy Policy, and Refund Policy for legal compliance
 - [ ] **Blog/Content Hub** — Create articles targeting long-tail keywords for organic traffic
 - [ ] **Analytics Integration** — Add Google Analytics 4 or Plausible for tracking
 - [ ] **Cookie Consent** — Implement GDPR-compliant cookie banner if serving EU users
