@@ -1,6 +1,6 @@
 # AI Chat to Word Landing Page
 
-A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word** Chrome extension — the fastest way to export AI conversations from ChatGPT, Gemini, Copilot, Grok, and DeepSeek to Microsoft Word and PDF documents.
+A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word** Chrome extension — the fastest way to export AI conversations from ChatGPT, Gemini, Copilot, Grok, DeepSeek, and Genspark to Microsoft Word and PDF documents.
 
 ## Live Website
 
@@ -10,7 +10,7 @@ A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word*
 
 ### Completed Features
 - [x] **Hero Section** — Eye-catching H1, value proposition, animated chat mockup, and primary CTA
-- [x] **Supported Platforms Grid** — ChatGPT, Gemini, Copilot, Grok, DeepSeek with hover animations
+- [x] **Supported Platforms Grid** — ChatGPT, Gemini, Copilot, Grok, DeepSeek, Genspark with hover animations
 - [x] **How It Works Section** — 3-step visual guide with connecting lines (desktop)
 - [x] **Features/Benefits Grid** — 6 feature cards with icons and descriptions
 - [x] **Before/After Proof Section** — Side-by-side comparison showing broken vs. perfect equation/table exports
@@ -23,7 +23,7 @@ A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word*
 - [x] **Sticky Navigation** — Transparent-to-solid on scroll with mobile hamburger menu
 - [x] **Back to Top Button** — Appears after scrolling 500px
 - [x] **Scroll Progress Bar** — Visual indicator at top of page
-- [x] **Pricing Section** — Clear pricing comparison showing $4.99/month vs competitors at $10–$20, highlighting 50–75% savings
+- [x] **Pricing Section** — Clear pricing comparison showing $6.99/month or $49.00/year vs competitors at $10–$20, highlighting 30–65% savings
 
 ### SEO & Technical Implementation
 - [x] **Semantic HTML5** — Proper heading hierarchy, `header`, `nav`, `main`, `section`, `article`, `footer`
@@ -105,7 +105,7 @@ The following keywords are naturally integrated across the page:
 - [ ] **Testimonials Section** — Add user reviews with star ratings for social proof
 - [ ] **Screenshot Gallery** — Showcase the extension UI with annotated screenshots
 - [ ] **Video Demo** — Add an explainer video showing the one-click export process
-- [x] **Pricing Section** — Clear $4.99/month pricing with competitor comparison ($10–$20) highlighting 50–75% savings
+- [x] **Pricing Section** — Clear $6.99/month or $49.00/year pricing with competitor comparison ($10–$20) highlighting 30–65% savings
 - [ ] **Policy Pages** — Terms of Service, Privacy Policy, and Refund Policy for legal compliance
 - [ ] **Blog/Content Hub** — Create articles targeting long-tail keywords for organic traffic
 - [ ] **Analytics Integration** — Add Google Analytics 4 or Plausible for tracking
