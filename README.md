@@ -24,6 +24,9 @@ A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word*
 - [x] **Back to Top Button** — Appears after scrolling 500px
 - [x] **Scroll Progress Bar** — Visual indicator at top of page
 - [x] **Pricing Section** — Clear pricing comparison showing $6.99/month or $49.00/year vs competitors at $10–$20, highlighting 30–65% savings
+- [x] **Blog Section** — `blog.html` index with modern article cards + `article.html` reader page (dynamic `?slug=` routing, auto Table of Contents, per-article SEO meta tags, JSON-LD Article schema, breadcrumb navigation, Related Articles internal linking)
+- [x] **12 SEO Blog Articles** — Long-tail keyword guides covering ChatGPT, Gemini, Claude, LaTeX equations, students, teachers, researchers, and productivity. Each with SEO title, meta description, URL slug, FAQ section, and natural extension CTAs linking to the Chrome Web Store
+- [x] **Privacy Policy in Navigation** — Privacy link visible in headers/navbars of all pages
 
 ### SEO & Technical Implementation
 - [x] **Semantic HTML5** — Proper heading hierarchy, `header`, `nav`, `main`, `section`, `article`, `footer`
@@ -43,13 +46,19 @@ A modern, high-converting, SEO-optimized landing page for the **AI Chat to Word*
 ```
 .
 ├── index.html          # Main landing page (semantic HTML + all sections)
+├── blog.html           # Blog index — article cards rendered from blog-data.js
+├── article.html        # Article reader — renders article by ?slug= parameter
 ├── terms.html          # Terms of Service policy page
 ├── privacy.html        # Privacy Policy page
 ├── refund.html         # Refund Policy page
 ├── css/
-│   └── style.css       # Custom animations, glow effects, responsive tweaks
+│   ├── style.css       # Custom animations, glow effects, responsive tweaks
+│   └── blog.css        # Article typography, CTA buttons, code/table styles
 ├── js/
-│   └── app.js          # FAQ accordion, mobile menu, smooth scroll, interactions
+│   ├── app.js          # FAQ accordion, mobile menu, smooth scroll, interactions
+│   ├── blog-data.js    # Blog articles data (title, excerpt, category, content HTML)
+│   ├── blog.js         # Blog index card renderer
+│   └── article.js      # Article reader renderer + SEO meta + TOC builder
 ├── images/
 │   └── logo.png        # AI Chat to Word logo (1024x1024 PNG)
 └── README.md           # Project documentation
